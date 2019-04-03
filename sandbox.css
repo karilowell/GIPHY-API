@@ -1,0 +1,74 @@
+font-face{
+    font-family: interesting;
+    src: url(KBZipaDeeDooDah.ttf);
+}
+
+*{
+    font-family: interesting;
+}
+
+body{
+    background: url("../images/background.png");
+    background-size: 100%;
+    background-color: rgb(118, 154, 230);
+}
+
+h1, #gifLocation p{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.btn{
+    margin-top: 5px;
+}
+
+img{
+    max-width: 100%;
+}
+
+#gifLocation{
+    text-align: center;
+}
+
+label{
+    padding-top: 20px;
+}
+
+.btn, .set:focus{
+    background-color: #F3C2E0;
+    color: #214696;
+    border: 1px solid #E19C1D;
+    margin: 5px 2px 0 2px;
+}
+
+.btn:hover, .gifButtons:focus, .act{
+    background-color: #C44491;
+    color: #3AB5F8;
+    border: 2px solid #FFA131;
+    font-weight: bold;
+}
+
+.form-control{
+    color: #214696;
+    border: 1px solid #E19C1D;
+}
+
+.form-control:focus{
+    border: 2px solid #FFA131;
+}
+
+#settings-form{
+    padding-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    #settings-form{
+        padding-top: 20px;
+    }
+
+    h1{
+        padding-top: 0;
+    }
+}
