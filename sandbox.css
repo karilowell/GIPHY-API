@@ -36,7 +36,7 @@ label{
 }
 
 .btn, .set:focus{
-    background-color: #F3C2E0;
+    background-color: purple;
     color: #214696;
     border: 1px solid #E19C1D;
     margin: 5px 2px 0 2px;
@@ -68,7 +68,7 @@ label{
         padding-top: 20px;
     }
 
-    h1{
+    /* h1{
         padding-top: 0;
     }
-}
+} */
