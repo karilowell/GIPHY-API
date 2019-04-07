@@ -10,13 +10,14 @@ font-face{
 body{
     background: url("../images/background.png");
     background-size: 100%;
-    background-color: rgb(118, 154, 230);
+    background-color: rgb(230, 118, 215);
 }
 
 h1, #gifLocation p{
     font-weight: bold;
     text-align: center;
     padding-top: 20px;
+    color: white;
 }
 
 .btn{
@@ -37,13 +38,13 @@ label{
 
 .btn, .set:focus{
     background-color: purple;
-    color: #214696;
+    color: white;
     border: 1px solid #E19C1D;
     margin: 5px 2px 0 2px;
 }
 
 .btn:hover, .gifButtons:focus, .act{
-    background-color: #C44491;
+    background-color: pink;
     color: #3AB5F8;
     border: 2px solid #FFA131;
     font-weight: bold;
@@ -68,7 +69,7 @@ label{
         padding-top: 20px;
     }
 
-    /* h1{
+    h1{
         padding-top: 0;
     }
-} */
+}
